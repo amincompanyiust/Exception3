@@ -20,6 +20,8 @@ public class FileReaderClass {
         } catch (IOException e) {
             System.out.println(e.getMessage());
             System.out.println(e.getCause());
+        } finally {
+            System.out.println("finally started");
         }
 
     }
